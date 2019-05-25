@@ -1,6 +1,6 @@
 
 import React from 'react';
-import logo from './nba-logo.svg';
+import logo from '../assets/nba-logo.svg';
 
 export class TopBar extends React.Component {
  render() {
