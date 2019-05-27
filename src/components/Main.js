@@ -6,10 +6,10 @@ import nba from 'nba';
 
 export class Main extends React.Component {
  state = {
+     // change name to 'stephen curry'
    playerId: nba.findPlayer('Lebron James').playerId,
-   playerInfo: {},
+   playerInfo: {}
  }
-
  componentDidMount() {
    nba.stats.playerInfo({ PlayerID: this.state.playerId })
      .then((info) => {
